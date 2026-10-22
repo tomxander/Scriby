@@ -8,20 +8,11 @@ Scriby runs locally. WIPs are saved in plain files on your disk. No accounts or 
 
 ## Download
 
-Get the latest installer from the **[Releases page](../../releases)**:
+Get the latest Mac app from the **[Releases page](https://github.com/tomxander/Scriby/releases)**. Open the download and drag **Scriby** to Applications. Builds are for Apple silicon Macs; the app is not yet notarized by Apple, so the first time you open it, right-click it and choose **Open**.
 
-- **macOS** — download the `.dmg` for older Intel machines or the arm64 file for Mac silicon. Open it and drag Scriby to Applications.
-- **Windows** — get `Scriby-Setup` (the installer, which keeps itself up to date) and run it, or the `portable` `.exe`, which runs without installing.
+Your library lives in `~/Documents/NEO Library` (the folder keeps its original name so existing libraries keep working). **File → Settings…** and **File → Library Folder…** move it anywhere you like, including iCloud Drive.
 
-  Your library lives in `Documents\NEO Library`. If OneDrive backs up your Documents folder, that puts your books in OneDrive too; File → Library Folder… moves the library anywhere you like. If Windows Security's *Controlled folder access* is on, Windows won't let Scriby save in Documents: Scriby says so when it starts, and you can allow Scriby there or pick another folder.
-- **Linux** — download the `.AppImage`, make it executable, and run it:
-
-  ```
-  chmod +x Scriby-*.AppImage
-  ./Scriby-*.AppImage
-  ```
-
-  If it complains about a sandbox (common on Ubuntu 24.04 and newer), run it as `./Scriby-*.AppImage --no-sandbox`. Your library lives in `~/Documents/NEO Library`; File → Library Folder… moves it anywhere you like.
+This repository holds the **Mac app**. The Windows, Linux and phone versions of the original NEO are not part of it.
 
 ## Why Scriby?
 
@@ -41,7 +32,7 @@ Right-click the first chapter's heading to make it a prologue, or the last one's
 
 **Darlings** 
 
-The writing advice is "kill your darlings" — but I say: *keep the bodies*. Drag any beautiful-but-in-the-way passage onto the Darlings tab. It leaves your manuscript but isn't lost. Darlings restore to the exact spot it came from. More like zombies than darlings.
+The writing advice is "kill your darlings" — but here we *keep the bodies*. Drag any beautiful-but-in-the-way passage onto the Darlings tab. It leaves your manuscript but isn't lost. Darlings restore to the exact spot it came from. More like zombies than darlings.
 
 **Placeholders** 
 
@@ -55,9 +46,13 @@ The Outline tab lays your book out as index cards, set like a page: they read le
 
 Every book gets a cover! New books are dressed in a seeded abstract (six art styles, six type templates, typefaces bundled with Scriby) so no two stories on the shelf look alike. Once a story passes 1,000 words, Scriby can read it and paint an abstract cover from the text. This is a bit more work but totally worth it. Get an OpenAI API key from their website and paste it into **File → Cover Art…**. The art is generated in the background for about a penny a picture. (These are not meant for publication, just writing inspiration!) The API key is stored encrypted in Scriby's own settings, never in your library folder. The title and author are always set in real type on top, so the lettering is never left to a gen-AI model. The ↻ on any book re-rolls its type and colors, or paints it again. And you can always switch back and forth from the seeded modern look to the painted variety.
 
+**The Companion** 
+
+Ask the Companion (⌘⇧K, behind *Show More Features*) to help you draft, think through a scene, or build characters and the world: a story bible of cards that lives in your book folder. It connects to a hosted model (Claude, OpenAI, any OpenAI-compatible service) or to a model on your own Mac (Ollama, LM Studio), set up in **File → Settings… → Companion**. It speaks only when you press Send, shows exactly what is sent, and nothing reaches your manuscript unless you choose Insert or Replace. Keys are kept in the system keychain, never in your library.
+
 **Goals and momentum** 
 
-Daily word goals, word sprints, and a NaNoWriMo-style progress chart. Needs more testing, but I think it works okay!
+Daily word goals, word sprints, and a NaNoWriMo-style progress chart. Needs more testing.
 
 **A shelf can become one book** 
 
@@ -89,7 +84,7 @@ Everything lives in `~/Documents/NEO Library` — one folder per book, chapters 
 
 ## Languages
 
-Scriby speaks English, French, Spanish, Portuguese, German, Italian, Dutch, Polish, Romanian and Russian. Pick one under **View → Language**; on first launch Scriby follows your system language when it has it. Adding a language is a single file, no programming needed: see [TRANSLATING.md](TRANSLATING.md).
+Scriby speaks English, French (including Canadian), Spanish, Portuguese (Brazil and Portugal), German, Italian, Dutch, Polish, Romanian, Russian, Greek, Hungarian, Korean and Turkish. Newer strings (such as the Companion's) fall back to English until they are translated. Pick one under **View → Language**; on first launch Scriby follows your system language when it has it. Adding a language is a single file, no programming needed: see [TRANSLATING.md](TRANSLATING.md).
 
 ## Building from source
 
@@ -100,15 +95,15 @@ npm install
 npm start
 ```
 
-**View → Keyboard Shortcuts…** opens the shortcut reference. You can also press `Cmd+/` on macOS or `Ctrl+/` on Windows and Linux, or use **Help → Scriby Shortcuts**.
+**View → Keyboard Shortcuts…** opens the shortcut reference. You can also press `Cmd+/` or use **Help → Scriby Shortcuts**.
 
-To build installers: `npm install electron-builder --save-dev`, then `npm run package` (macOS, also `npm run package:mac`), `npm run package:win` (Windows), or `npm run package:all`. Output lands in `dist/`.
+To build the Mac app: `npm run package:mac`. Output lands in `dist/`. For a local, unsigned build, `npx electron-builder --mac dir --arm64 -c.mac.identity=null`. Getting it into the Mac App Store is covered in [MAC_APP_STORE.md](MAC_APP_STORE.md).
 
 The app is very simple: an Electron shell (`main.js`), a preload bridge (`preload.js`), and a renderer (`app.js` + `styles.css` + `index.html`). If you want to build on it, ask first: see the license.
 
-## Roadmap (things I'm dreaming up but may never get to):
+## Roadmap
 
-Chapter version history · manuscript format for agent submissions (Times New Roman, double-spaced, address block, just to make Kristin Nelson happy) · global end matter that updates every book at once (same for copyright pages, bios, etc).
+Notarized builds · Mac App Store release (see [MAC_APP_STORE.md](MAC_APP_STORE.md)) · a consistency check between the story bible and the chapters · global end matter that updates every book at once (copyright pages, bios and so on).
 
 ## Contributing
 

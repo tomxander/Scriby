@@ -29,7 +29,6 @@ assessment, not a finished setup: nothing here has been submitted or tested agai
 | Keys | `safeStorage` | Fine |
 | Privacy | No analytics, no account | Fill the App Privacy details: data not collected; add a privacy manifest if any API on Apple's required-reason list is used |
 | Identity | `appId` `com.hughhowey.neo`, product name Scriby | Pick the bundle id before the first submission: it cannot change afterwards |
-| Pocket | Separate Capacitor apps | Unrelated to this store listing |
 
 ## Suggested order
 

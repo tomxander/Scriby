@@ -4,6 +4,10 @@ Scriby is a local word processor for books. It is an Electron app made of plain 
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before adding a feature. The product is opinionated on purpose. A change that helps someone finish a book belongs here. A change that adds a panel, a prompt, or a dependency usually does not.
 
+## What this repository is
+
+This repository (`tomxander/Scriby`) is the **Mac app** only. The phone apps (`pocket/`), their CI workflow and the Windows and Linux packaging of the original NEO are not in it; mentions of Pocket, Windows or Linux below describe the shared code and the original project, and can be ignored here. Build the Mac app with `npm run package:mac`; a local unsigned build is `npx electron-builder --mac dir --arm64 -c.mac.notarize=false -c.mac.identity=null -c.publish=null`, then `codesign --force --deep -s - dist/mac-arm64/Scriby.app`. Changes are pushed to `main` on GitHub only when Tom asks.
+
 ## Provenance and license
 
 Scriby is Tom's work, based on NEO by Hugh Howey (MIT). Keep `LICENSE-NEO-MIT` and `NOTICE.md` in the tree and never present the original as Tom's. Tom's additions are under the restrictive `LICENSE` (use only: no copying, modifying, reselling). Third-party components keep their own licenses. Where this file says "Hugh", it describes the original NEO maintainer's workflow.

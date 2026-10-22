@@ -8,7 +8,7 @@ Thanks for wanting to make Scriby better. A few notes before you dive in.
 
 Scriby exists because every writing app was eventually ruined by bloat. The bar for new features is not "would this be cool?" but "does this help a working author write, finish, and publish books?"
 
-Good territory: bug fixes, performance, accessibility, better import/export precision, and platform polish (especially Windows and Linux, which I haven't tested much).
+Good territory: bug fixes, performance, accessibility, better import/export precision, and Mac polish (Apple's interface guidelines, accessibility, and the Mac App Store sandbox).
 
 ## How the code works
 
