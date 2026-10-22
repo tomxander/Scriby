@@ -6,9 +6,13 @@ Scriby understands from the moment you install it that you are writing *books* a
 
 Scriby runs locally. WIPs are saved in plain files on your disk. No accounts or subscriptions. And it's free to use.
 
-## Download
+## Download and install
 
-Get the latest Mac app from the **[Releases page](https://github.com/tomxander/Scriby/releases)**. Open the download and drag **Scriby** to Applications. Builds are for Apple silicon Macs; the app is not yet notarized by Apple, so the first time you open it, right-click it and choose **Open**.
+1. Get **Scriby-1.6.0-arm64.dmg** from the **[Releases page](https://github.com/tomxander/Scriby/releases)** (Apple silicon Macs).
+2. Open the DMG and drag **Scriby** onto the **Applications** folder in the same window. Then eject the disk image.
+3. The first time, open Scriby by **right-clicking** it in Applications, choosing **Open**, and then **Open** again. This is needed once because the app is not yet notarized by Apple. If macOS says the app is damaged, run `xattr -dr com.apple.quarantine /Applications/Scriby.app` in Terminal and open it again.
+
+Updates come from this repository's Releases. Until the app is notarized, install a new version the same way: download its DMG and drag Scriby over the old one.
 
 Your library lives in `~/Documents/NEO Library` (the folder keeps its original name so existing libraries keep working). **File → Settings…** and **File → Library Folder…** move it anywhere you like, including iCloud Drive.
 
