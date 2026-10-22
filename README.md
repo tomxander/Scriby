@@ -26,7 +26,7 @@ Your library looks like a bookshelf, not a file list. Labeled shelves you organi
 
 **Just a blank page** 
 
-There's a white page by default or a dark mode . Controls fade until you mouse over them. Chapters number and renumber themselves automatically. Drop caps mark chapter openings, because I'm a sucker for drop-caps. Em dashes, true ellipses, and curly quotes sort themselves out as you type. Spellcheck exists only when you invoke it — no more red squiggles mid-sentence triggering your imposter syndrome.
+Scriby opens in a dark room by default. Prefer paper? **File → Settings… → Appearance** switches to Paper, Papyrus or Light, and your choice is remembered on that Mac. Controls fade until you mouse over them. Chapters number and renumber themselves automatically. Drop caps mark chapter openings, because a book should look like a book. Em dashes, true ellipses, and curly quotes sort themselves out as you type. Spellcheck exists only when you invoke it — no more red squiggles mid-sentence triggering your imposter syndrome.
 
 **Enter, Enter, Enter** 
 
