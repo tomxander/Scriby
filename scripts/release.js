@@ -85,7 +85,7 @@ gitLoud('push', 'origin', tag);
 
 console.log(`
 ✅ ${next} is building. In about 15 minutes:
-   1. Open https://github.com/hughhowey/neo/releases
+   1. Open https://github.com/tomxander/Scriby/releases
    2. Open the ${tag} draft, check the Windows file is Scriby-Setup-${next}.exe
    3. Press Publish. Everyone's Scriby updates itself from there.
 ${notes ? `\nWhat's in it (a start for the release notes):\n${notes}\n` : ''}`);

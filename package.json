@@ -3,7 +3,9 @@
   "productName": "Scriby",
   "version": "1.5.8",
   "description": "A word processor for authors. Distraction-free by default.",
-  "homepage": "https://github.com/hughhowey/neo",
+  "homepage": "https://github.com/tomxander/Scriby",
+  "repository": { "type": "git", "url": "https://github.com/tomxander/Scriby.git" },
+  "bugs": { "url": "https://github.com/tomxander/Scriby/issues" },
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -35,8 +37,8 @@
     "productName": "Scriby",
     "publish": {
       "provider": "github",
-      "owner": "hughhowey",
-      "repo": "neo"
+      "owner": "tomxander",
+      "repo": "Scriby"
     },
     "mac": {
       "category": "public.app-category.productivity",

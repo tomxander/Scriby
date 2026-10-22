@@ -436,7 +436,7 @@
   "Pick an image (2:3 works best). Or just drag one from Finder onto the book.": "Válassz képet (a 2:3 arány a legjobb). Vagy egyszerűen húzz egyet a Finderből a könyvre.",
   "Plain Text (.txt)": "Egyszerű szöveg (.txt)",
   "platform.openai.com → API keys": "platform.openai.com → API keys",
-  "Please report this at github.com/hughhowey/neo/issues:": "Kérlek, jelentsd ezt itt: github.com/hughhowey/neo/issues:",
+  "Please report this at github.com/tomxander/Scriby/issues:": "Kérlek, jelentsd ezt itt: github.com/tomxander/Scriby/issues:",
   "Plotter": "Tervező",
   "Pocket can see the NEO Library folder but Android is blocking it from reading files that other apps (like Syncthing) created.": "A Pocket látja a NEO Library mappát, de az Android nem engedi, hogy beolvassa a más alkalmazások (például a Syncthing) által létrehozott fájlokat.",
   "Pocket couldn't open its NEO Library folder. Force-quit and reopen the app; if it keeps happening, check that iCloud Drive is signed in (Settings → your name → iCloud), or turn it off so Pocket keeps books on the iPad itself.": "A Pocket nem tudta megnyitni a NEO Library mappáját. Lépj ki teljesen az alkalmazásból, és nyisd meg újra; ha ez ismétlődik, ellenőrizd, hogy be vagy-e jelentkezve az iCloud Drive-ba (Beállítások → a neved → iCloud), vagy kapcsold ki, hogy a Pocket magán az iPaden tartsa a könyveket.",

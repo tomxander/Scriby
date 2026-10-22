@@ -549,7 +549,7 @@
   "Placeholders": "자리 표시자",
   "Plain Text (.txt)": "일반 텍스트 (.txt)",
   "platform.openai.com → API keys": "platform.openai.com → API keys",
-  "Please report this at github.com/hughhowey/neo/issues:": "github.com/hughhowey/neo/issues에 알려 주세요:",
+  "Please report this at github.com/tomxander/Scriby/issues:": "github.com/tomxander/Scriby/issues에 알려 주세요:",
   "Plotter": "먼저 짜는 편",
   "Pocket can see the NEO Library folder but Android is blocking it from reading files that other apps (like Syncthing) created.": "Pocket 앱이 Scriby 서재 폴더를 볼 수는 있지만, 다른 앱(Syncthing 등)이 만든 파일은 Android가 읽지 못하게 막고 있어요.",
   "Pocket couldn't open its NEO Library folder. Force-quit and reopen the app; if it keeps happening, check that iCloud Drive is signed in (Settings → your name → iCloud), or turn it off so Pocket keeps books on the iPad itself.": "Pocket 앱이 Scriby 서재 폴더를 열지 못했어요. 앱을 강제 종료했다가 다시 열어 보세요. 계속 이러면 iCloud Drive에 로그인돼 있는지 확인하거나(설정 → 사용자 이름 → iCloud), iCloud Drive를 꺼서 Pocket 앱이 책을 iPad 자체에 보관하게 하세요.",

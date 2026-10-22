@@ -3184,8 +3184,8 @@ function lookForUpdate() {
 
 // what's on GitHub, for the fallback path and the release link
 async function latestReleaseFromGitHub() {
-  const res = await fetch('https://api.github.com/repos/hughhowey/neo/releases/latest', {
-    headers: { 'User-Agent': 'NEO-App' }
+  const res = await fetch('https://api.github.com/repos/tomxander/Scriby/releases/latest', {
+    headers: { 'User-Agent': 'Scriby-App' }
   });
   if (!res.ok) throw new Error('GitHub API returned ' + res.status);
   const data = await res.json();
@@ -3347,7 +3347,7 @@ app.whenReady().then(() => {
     logError('startup', err);
     try {
       dialog.showErrorBox(t('Scriby failed to start'),
-        t('Please report this at github.com/hughhowey/neo/issues:') + '\n\n' + String((err && err.stack) || err));
+        t('Please report this at github.com/tomxander/Scriby/issues:') + '\n\n' + String((err && err.stack) || err));
     } catch { /* nothing left to try */ }
   }
   app.on('activate', () => {

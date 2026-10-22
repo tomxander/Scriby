@@ -30,8 +30,8 @@ Lookup, updated 2026-09-30
 
 Since NEO 1.2, Hunspell reads index.aff and index.dic exactly as
 distributed; no conversion is applied. Lookup normalizes Romanian
-diacritics (spell-ro.js, in app.asar and in NEO's source repository,
-https://github.com/hughhowey/neo) without altering manuscript text.
+diacritics (spell-ro.js, in app.asar and in Scriby's source repository,
+https://github.com/tomxander/Scriby, derived from NEO) without altering manuscript text.
 
 MPL 1.1 Exhibit A notice for the dictionary data
 
