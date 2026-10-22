@@ -42,10 +42,12 @@ function collect() {
   };
   const call = /(?<![\w$.])(?:NeoI18n\.)?tk?\(\s*'((?:[^'\\\n]|\\.)*)'/g;
   for (const f of JS_FILES) {
+    if (!fs.existsSync(path.join(ROOT, f))) continue; // Pocket's files are not in the Mac repo
     const src = fs.readFileSync(path.join(ROOT, f), 'utf8');
     for (const m of src.matchAll(call)) add(unescapeJs(m[1]), f);
   }
   for (const f of HTML_FILES) {
+    if (!fs.existsSync(path.join(ROOT, f))) continue;
     const html = fs.readFileSync(path.join(ROOT, f), 'utf8');
     for (const tag of html.matchAll(/<(\w+)([^>]*)>([^<]*)/g)) {
       const [, , attrs, text] = tag;
