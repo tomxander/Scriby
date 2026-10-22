@@ -10,7 +10,7 @@ Scriby runs locally. WIPs are saved in plain files on your disk. No accounts or 
 
 1. Get **Scriby-1.6.0-arm64.dmg** from the **[Releases page](https://github.com/tomxander/Scriby/releases)** (Apple silicon Macs).
 2. Open the DMG and drag **Scriby** onto the **Applications** folder in the same window. Then eject the disk image.
-3. The first time, open Scriby by **right-clicking** it in Applications, choosing **Open**, and then **Open** again. This is needed once because the app is not yet notarized by Apple. If macOS says the app is damaged, run `xattr -dr com.apple.quarantine /Applications/Scriby.app` in Terminal and open it again.
+3. macOS will say it could not verify Scriby, because the app is not yet notarized by Apple. Click **Done** (not Move to Bin), then open **System Settings → Privacy & Security**, scroll to **Security**, click **Open Anyway** next to "Scriby was blocked", and confirm. This is needed once. Or, in Terminal: `xattr -dr com.apple.quarantine /Applications/Scriby.app`, then open Scriby.
 
 Updates come from this repository's Releases. Until the app is notarized, install a new version the same way: download its DMG and drag Scriby over the old one.
 
