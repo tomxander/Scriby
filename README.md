@@ -90,20 +90,13 @@ Everything lives in `~/Documents/NEO Library` — one folder per book, chapters 
 
 Scriby speaks English, French (including Canadian), Spanish, Portuguese (Brazil and Portugal), German, Italian, Dutch, Polish, Romanian, Russian, Greek, Hungarian, Korean and Turkish. Newer strings (such as the Companion's) fall back to English until they are translated. Pick one under **View → Language**; on first launch Scriby follows your system language when it has it. Adding a language is a single file, no programming needed: see [TRANSLATING.md](TRANSLATING.md).
 
-## Building from source
-
-Scriby's source is shown so you can see how it works. Its license ([LICENSE](LICENSE)) lets you run Scriby but not modify, redistribute or sell it without permission. Requires [Node.js](https://nodejs.org) to run it from a checkout:
-
-```
-npm install
-npm start
-```
+## Shortcuts
 
 **View → Keyboard Shortcuts…** opens the shortcut reference. You can also press `Cmd+/` or use **Help → Scriby Shortcuts**.
 
-To build the Mac app: `npm run package:mac`. Output lands in `dist/`. For a local, unsigned build, `npx electron-builder --mac dir --arm64 -c.mac.identity=null`. Getting it into the Mac App Store is covered in [MAC_APP_STORE.md](MAC_APP_STORE.md).
+## About the source
 
-The app is very simple: an Electron shell (`main.js`), a preload bridge (`preload.js`), and a renderer (`app.js` + `styles.css` + `index.html`). If you want to build on it, ask first: see the license.
+Scriby is an Electron app written in plain JavaScript, HTML and CSS: a main process (`main.js`), a preload bridge (`preload.js`) and the interface (`app.js`, `styles.css`, `index.html`). The source is published so you can see how it works. Under its [license](LICENSE) you may use Scriby but not copy, modify or redistribute it without permission.
 
 ## Roadmap
 
