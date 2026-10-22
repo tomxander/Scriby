@@ -13,7 +13,7 @@ Your library is a bookshelf, the page is calm, and your words stay in plain file
 
 [![Latest release](https://img.shields.io/github/v/release/tomxander/Scriby?style=for-the-badge&color=d9aa48&labelColor=1c2b4a&label=release)](https://github.com/tomxander/Scriby/releases/latest)
 &nbsp;
-![macOS](https://img.shields.io/badge/macOS-Apple%20silicon-1c2b4a?style=for-the-badge&logo=apple&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-Apple%20silicon%20%26%20Intel-1c2b4a?style=for-the-badge&logo=apple&logoColor=white)
 &nbsp;
 [![License](https://img.shields.io/badge/license-Scriby-555?style=for-the-badge&labelColor=1c2b4a)](LICENSE)
 
@@ -86,9 +86,13 @@ Everything you set once lives in **File → Settings…**: the page, labels, int
 
 ## Install
 
-**Requirements:** a Mac with Apple silicon, running a recent version of macOS.
+**Requirements:** a Mac running a recent version of macOS, Apple silicon or Intel.
 
-1. Download **`Scriby-1.6.0-arm64.dmg`** from the **[latest release](https://github.com/tomxander/Scriby/releases/latest)**.
+1. Download the right DMG from the **[latest release](https://github.com/tomxander/Scriby/releases/latest)**:
+   - **`Scriby-1.6.0-arm64.dmg`** for Apple silicon Macs (M1 and later)
+   - **`Scriby-1.6.0-x64.dmg`** for Intel Macs
+
+   Not sure which you have? Choose  → **About This Mac**: "Chip: Apple M…" means Apple silicon, "Processor: Intel…" means Intel.
 2. Open it and drag **Scriby** onto the **Applications** folder in the window, then eject the disk image.
 3. Open Scriby. The first time, macOS says it could not verify the app, because it is not yet notarized by Apple. Click **Done** (not Move to Bin), then open **System Settings → Privacy & Security**, scroll to **Security**, click **Open Anyway** next to "Scriby was blocked", and confirm. You only do this once.
 
@@ -342,7 +346,7 @@ The app is not yet notarized by Apple, which needs a paid developer account. Fol
 <details>
 <summary><b>Does it work on Intel Macs, Windows or Linux?</b></summary>
 
-The current release is built for Apple silicon Macs. Other platforms are not part of this repository.
+It runs on both Apple silicon and Intel Macs; each has its own DMG on the release page. Windows and Linux are not part of this repository.
 
 </details>
 
