@@ -107,7 +107,7 @@
           "Keywords": "writing;writer;novel;book;author;manuscript;wordprocessor;"
         }
       },
-      "maintainer": "Tom"
+      "maintainer": "Thomas Alex"
     },
     "nsis": {
       "oneClick": true,
@@ -163,7 +163,7 @@
       "appimage": "1.0.3"
     }
   },
-  "author": "Tom",
+  "author": "Thomas Alex",
   "license": "SEE LICENSE IN LICENSE",
   "devDependencies": {
     "electron": "^43.0.0",

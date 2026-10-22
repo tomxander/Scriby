@@ -1,6 +1,6 @@
 # Notice and attribution
 
-**Scriby** is created and maintained by **Tom**. Copyright (c) 2026 Tom.
+**Scriby** is created and maintained by **Thomas Alex**. Copyright (c) 2026 Thomas Alex.
 
 ## Based on NEO
 
@@ -15,7 +15,7 @@ license requires, in [LICENSE-NEO-MIT](LICENSE-NEO-MIT).
 
 ## What Scriby adds
 
-Tom's additions, licensed under [LICENSE](LICENSE), include the Scriby name and
+Thomas Alex's additions, licensed under [LICENSE](LICENSE), include the Scriby name and
 identity and its icon, the redesigned interface and design system, the
 floating panels, menus and icons, the resting bottom bar, the Companion
 (language-model assistant, story bible and connection settings), the layout and

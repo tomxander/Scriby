@@ -387,11 +387,11 @@ Check **Releases** for a newer version, download its DMG, and drag Scriby over t
 
 ## Contributing
 
-Scriby is opinionated by design: a change belongs here if it helps someone finish a book. Bug reports and ideas are welcome as [issues](https://github.com/tomxander/Scriby/issues); see [CONTRIBUTING.md](CONTRIBUTING.md). Because of Scriby's license, code contributions are accepted only with Tom's agreement.
+Scriby is opinionated by design: a change belongs here if it helps someone finish a book. Bug reports and ideas are welcome as [issues](https://github.com/tomxander/Scriby/issues); see [CONTRIBUTING.md](CONTRIBUTING.md). Because of Scriby's license, code contributions are accepted only with Thomas Alex's agreement.
 
 ## License and credits
 
-Scriby is © 2026 Tom, under the [Scriby License](LICENSE): anyone may use it, but not copy, modify, redistribute or sell it without permission.
+Scriby is © 2026 Thomas Alex, under the [Scriby License](LICENSE): anyone may use it, but not copy, modify, redistribute or sell it without permission.
 
 It is based on **NEO** by **[Hugh Howey](https://hughhowey.com)**, whose original work is MIT-licensed; his copyright and license are kept in [LICENSE-NEO-MIT](LICENSE-NEO-MIT). Fonts, dictionaries and other bundled components keep their own licenses; see [NOTICE.md](NOTICE.md).
 
