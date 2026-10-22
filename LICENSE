@@ -1,0 +1,59 @@
+Scriby License
+==============
+
+Copyright (c) 2026 Tom. All rights reserved.
+
+Scriby is a modified work based on NEO, created by Hugh Howey and released
+under the MIT License (see LICENSE-NEO-MIT and NOTICE.md). Everything in
+Scriby that is not part of the original NEO, including the Companion, the
+design system, the interface changes, the icon, the documentation changes
+and every other addition or alteration made for Scriby ("Scriby's
+Additions"), is owned by Tom and is licensed to you only on the terms below.
+
+1. WHAT YOU MAY DO
+   You may download, install and run Scriby, unmodified, for any personal or
+   commercial purpose of your own, including writing and publishing your own
+   books with it. Books and text you write with Scriby belong to you; this
+   license claims nothing in them.
+
+2. WHAT YOU MAY NOT DO
+   Without Tom's prior written permission, you may not:
+   a. copy, redistribute, publish, host, share or sublicense Scriby or any
+      part of Scriby's Additions, in source or binary form;
+   b. modify, adapt, translate, extend, port or create derivative works of
+      Scriby's Additions, or recreate Scriby's Additions or its look, icon,
+      design or behavior in another product;
+   c. sell, rent, lease, lend, or otherwise charge for Scriby, or bundle it
+      with or include it in anything that is sold or charged for;
+   d. remove or alter any copyright, license or attribution notice;
+   e. reverse engineer, decompile or extract code, artwork or other
+      components from a compiled copy, except where the law allows it
+      despite this restriction;
+   f. use the name "Scriby" or its icon for another product or to suggest
+      that your work is endorsed by or comes from Tom.
+
+3. THE ORIGINAL NEO WORK
+   This license does not take away any right that the MIT License gives you
+   in the original NEO code by Hugh Howey. Whoever obtains the original NEO
+   from its own source remains free to use it under the MIT License. That
+   right does not extend to Scriby's Additions, and the MIT notice in
+   LICENSE-NEO-MIT must be kept wherever any NEO code is kept.
+
+4. THIRD-PARTY COMPONENTS
+   Fonts, dictionaries, Paged.js, hyphenation patterns, Electron and the
+   other bundled components remain under their own licenses (see the
+   `licenses/` folder, the `fonts/` and `print/` folders and the npm
+   dependencies). Nothing here changes those terms.
+
+5. NO WARRANTY
+   SCRIBY IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+   PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+   COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY
+   ARISING FROM, OUT OF OR IN CONNECTION WITH SCRIBY OR ITS USE.
+
+6. TERMINATION
+   Breaking these terms ends your license to Scriby's Additions. Rights you
+   have under the MIT License in the original NEO work are not affected.
+
+To ask for permission, contact Tom through the project's page.
