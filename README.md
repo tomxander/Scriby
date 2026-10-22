@@ -89,8 +89,8 @@ Everything you set once lives in **File → Settings…**: the page, labels, int
 **Requirements:** a Mac running a recent version of macOS, Apple silicon or Intel.
 
 1. Download the right DMG from the **[latest release](https://github.com/tomxander/Scriby/releases/latest)**:
-   - **`Scriby-1.6.0-arm64.dmg`** for Apple silicon Macs (M1 and later)
-   - **`Scriby-1.6.0-x64.dmg`** for Intel Macs
+   - **`Scriby-1.6.0-stable-arm64.dmg`** for Apple silicon Macs (M1 and later)
+   - **`Scriby-1.6.0-stable-x64.dmg`** for Intel Macs
 
    Not sure which you have? Choose  → **About This Mac**: "Chip: Apple M…" means Apple silicon, "Processor: Intel…" means Intel.
 2. Open it and drag **Scriby** onto the **Applications** folder in the window, then eject the disk image.
