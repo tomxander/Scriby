@@ -1,78 +1,189 @@
 <div align="center">
 
-<img src="docs/icon.png" width="128" alt="Scriby icon">
+<img src="docs/icon.png" width="132" alt="Scriby">
 
 # Scriby
 
-**A distraction-free word processor for authors.**
-Your library is a bookshelf. The page is quiet. Your words are plain files.
+### A quiet place to write your book.
 
-[![Release](https://img.shields.io/github/v/release/tomxander/Scriby?style=flat-square&color=d9aa48)](https://github.com/tomxander/Scriby/releases)
-![Platform](https://img.shields.io/badge/macOS-Apple%20silicon-1c2b4a?style=flat-square)
-[![License](https://img.shields.io/badge/license-Scriby%20License-555?style=flat-square)](LICENSE)
-
-[**Download**](#download-and-install) · [**Tour**](#a-look-inside) · [**Features**](#features) · [**Companion**](#features)
+A distraction-free word processor for authors, for Mac.<br>
+Your library is a bookshelf, the page is calm, and your words stay in plain files on your disk.
 
 <br>
 
-<img src="docs/screenshots/01-bookshelf.png" width="860" alt="The Scriby bookshelf">
+[![Latest release](https://img.shields.io/github/v/release/tomxander/Scriby?style=for-the-badge&color=d9aa48&labelColor=1c2b4a&label=release)](https://github.com/tomxander/Scriby/releases/latest)
+&nbsp;
+![macOS](https://img.shields.io/badge/macOS-Apple%20silicon-1c2b4a?style=for-the-badge&logo=apple&logoColor=white)
+&nbsp;
+[![License](https://img.shields.io/badge/license-Scriby-555?style=for-the-badge&labelColor=1c2b4a)](LICENSE)
+
+<br>
+
+[**⬇ Download**](#install) &nbsp;·&nbsp; [**Screenshots**](#screenshots) &nbsp;·&nbsp; [**Features**](#features) &nbsp;·&nbsp; [**Companion**](#the-companion) &nbsp;·&nbsp; [**FAQ**](#faq)
+
+<br>
+
+<img src="docs/screenshots/01-bookshelf.png" width="880" alt="The Scriby bookshelf">
 
 </div>
 
-Created by Tom, based on [NEO](https://github.com/hughhowey/neo) by Hugh Howey. See [NOTICE.md](NOTICE.md).
+<br>
 
-Scriby understands from the moment you install it that you are writing *books* and nothing else. No bloat, no distractions, with manuscripts that look like books as you write them. It runs locally, saves your work in plain files on your disk, and needs no account or subscription.
-
-## Download and install
-
-1. Get **Scriby-1.6.0-arm64.dmg** from the **[Releases page](https://github.com/tomxander/Scriby/releases)** (Apple silicon Macs).
-2. Open the DMG and drag **Scriby** onto the **Applications** folder in the same window. Then eject the disk image.
-3. macOS will say it could not verify Scriby, because the app is not yet notarized by Apple. Click **Done** (not Move to Bin), then open **System Settings → Privacy & Security**, scroll to **Security**, click **Open Anyway** next to "Scriby was blocked", and confirm. This is needed once. Or, in Terminal: `xattr -dr com.apple.quarantine /Applications/Scriby.app`, then open Scriby.
-
-Updates come from this repository's Releases. Until the app is notarized, install a new version the same way: download its DMG and drag Scriby over the old one.
-
-Your library lives in `~/Documents/NEO Library` (the folder keeps its original name so existing libraries keep working). **File → Settings…** and **File → Library Folder…** move it anywhere you like, including iCloud Drive.
-
-This repository holds the **Mac app**. The Windows, Linux and phone versions of the original NEO are not part of it.
-
-## A look inside
-
-*Screenshots show a demo library with invented text.*
+## Why Scriby
 
 <table>
 <tr>
-<td width="50%"><img src="docs/screenshots/02-manuscript-dark.png" alt="The manuscript in the dark room"><br><sub><b>The page.</b> Dark by default, with drop caps and book typography. Controls fade until you reach for them.</sub></td>
-<td width="50%"><img src="docs/screenshots/05-outline-cards.png" alt="The outline as index cards"><br><sub><b>Outline cards.</b> Every chapter is a card. Drag one and the writing moves with it.</sub></td>
-</tr>
-<tr>
-<td width="50%"><img src="docs/screenshots/06-chapters-panel.png" alt="The Chapters panel"><br><sub><b>Chapters.</b> A floating panel with your notes and word counts, there when you hover the edge.</sub></td>
-<td width="50%"><img src="docs/screenshots/07-companion.png" alt="The Companion"><br><sub><b>The Companion.</b> Ask a hosted or local model for help, and keep a story bible. It only speaks when you press Send.</sub></td>
+<td width="33%" valign="top">
+
+### 🕯 A quiet page
+Dark by default, with book typography, drop caps and controls that fade until you reach for them. Nothing pops up while you type.
+
+</td>
+<td width="33%" valign="top">
+
+### 📚 Made for books
+Shelves, chapters, outline cards, a Darlings drawer for cut passages, KDP paperbacks, EPUB, Word and manuscript-format exports.
+
+</td>
+<td width="33%" valign="top">
+
+### 🗂 Yours, in plain files
+No accounts, no subscription, no lock-in. Every book is a folder of readable files that you can sync, back up and open anywhere.
+
+</td>
 </tr>
 </table>
 
-### Four rooms to write in
+## Screenshots
 
 <table>
 <tr>
-<td width="50%"><img src="docs/screenshots/03-manuscript-paper.png" alt="Paper"><br><sub><b>Paper</b></sub></td>
-<td width="50%"><img src="docs/screenshots/04-manuscript-papyrus.png" alt="Papyrus"><br><sub><b>Papyrus</b> (Night and Light complete the set)</sub></td>
+<td width="50%"><img src="docs/screenshots/02-manuscript-dark.png" alt="Writing in the dark room"><br><sub><b>The page.</b> Book typography, drop caps, controls that stay out of the way.</sub></td>
+<td width="50%"><img src="docs/screenshots/05-outline-cards.png" alt="Outline cards"><br><sub><b>Outline cards.</b> Every chapter is a card; drag one and the writing moves with it.</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="docs/screenshots/06-chapters-panel.png" alt="Chapters panel"><br><sub><b>Chapters.</b> A floating panel with notes and word counts, there when you hover the edge.</sub></td>
+<td width="50%"><img src="docs/screenshots/07-companion.png" alt="The Companion"><br><sub><b>The Companion.</b> Ask a model for help and keep a story bible. It speaks only when you press Send.</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="docs/screenshots/03-manuscript-paper.png" alt="Paper room"><br><sub><b>Paper.</b> Night, Paper, Papyrus and Light are one click apart in Settings.</sub></td>
+<td width="50%"><img src="docs/screenshots/04-manuscript-papyrus.png" alt="Papyrus room"><br><sub><b>Papyrus.</b> Warm and easy on the eyes for long days.</sub></td>
 </tr>
 </table>
+
+<sub>Screenshots show a demo library with invented text. The Companion reply is a demo answer.</sub>
 
 <details>
 <summary><b>⚙️ Settings</b></summary>
 
-<img src="docs/screenshots/08-settings.png" alt="Settings" width="760">
+<br>
+
+<img src="docs/screenshots/08-settings.png" width="760" alt="Settings">
 
 Everything you set once lives in **File → Settings…**: the page, labels, interface size, writing options, languages, the Companion's connection, and your library.
 
 </details>
 
+## Install
+
+**Requirements:** a Mac with Apple silicon, running a recent version of macOS.
+
+1. Download **`Scriby-1.6.0-arm64.dmg`** from the **[latest release](https://github.com/tomxander/Scriby/releases/latest)**.
+2. Open it and drag **Scriby** onto the **Applications** folder in the window, then eject the disk image.
+3. Open Scriby. The first time, macOS says it could not verify the app, because it is not yet notarized by Apple. Click **Done** (not Move to Bin), then open **System Settings → Privacy & Security**, scroll to **Security**, click **Open Anyway** next to "Scriby was blocked", and confirm. You only do this once.
+
+   Prefer Terminal? `xattr -dr com.apple.quarantine /Applications/Scriby.app`, then open Scriby.
+
+**Updating:** download the newer DMG from Releases and drag Scriby over the old copy. Your library is untouched.
+
+## Quick start
+
+| Do this | To get this |
+|---|---|
+| Press **Enter** | A new paragraph |
+| Press **Enter** twice | A section break (`***`) |
+| Press **Enter** three times | A new chapter |
+| Drag a passage onto the **Darlings** tab | It leaves the page but is never lost |
+| **⌘⇧X** | A placeholder mark and a sticky note, for later |
+| **⌘S** | A snapshot of the whole book |
+| **⌘E** | Email yourself a copy of the work in progress |
+| **⌘,** | Settings |
+| **⌘/** | The full shortcut list |
+
+The goal is to keep writing. Chapters number and renumber themselves, quotes and dashes sort themselves out, and spellcheck runs only when you ask for it.
+
 ## Features
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**📚 Bookshelf**<br>
+Labeled shelves, cover art, progress bars toward your word goals, drag and drop everywhere.
+
+</td>
+<td width="33%" valign="top">
+
+**🗂 Outline cards**<br>
+Plan with index cards that are the manuscript. Move a card, move the writing.
+
+</td>
+<td width="33%" valign="top">
+
+**🧟 Darlings**<br>
+Cut freely. Passages wait in a drawer and restore to the exact spot.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**✨ The Companion**<br>
+A drafting and world-building assistant with a story bible, hosted or fully local.
+
+</td>
+<td valign="top">
+
+**🎬 Screenplays**<br>
+Industry-format scripts, Fountain and Final Draft import and export.
+
+</td>
+<td valign="top">
+
+**📖 Bound books**<br>
+Bind a shelf into an omnibus, trilogy or collection with front and back matter.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**📤 Export**<br>
+EPUB 3, Word, PDF, KDP paperback interiors, standard manuscript format.
+
+</td>
+<td valign="top">
+
+**🛟 Safe by design**<br>
+Continuous autosave, snapshots, daily backups and plain files.
+
+</td>
+<td valign="top">
+
+**🌍 15 languages**<br>
+The interface speaks English, French, Spanish, German and more.
+
+</td>
+</tr>
+</table>
+
+<br>
+
+### Features in depth
 
 *Click a feature to open it.*
 
-<details open>
+<details>
 <summary><b>📚 The bookshelf</b></summary>
 
 Your library looks like a bookshelf, not a file list. Labeled shelves you organize however you like — by series, by status, by pen name. Progress bars on the covers show how far you are from your word goals. You can drag-and-drop books anywhere. You can also drag shelves around and put cover art on your titles.
@@ -176,33 +287,115 @@ Continuous autosave, daily zip backups kept for two weeks, everything stored as 
 
 </details>
 
+## The Companion
 
-## Your files
+A drafting partner that stays out of the way. Open it with **⌘⇧K** (turn on *Show More Features* first) and ask it to help with a scene, a line of dialogue, a character, or the rules of your world.
 
-Everything lives in `~/Documents/NEO Library` — one folder per book, chapters as readable HTML, metadata as JSON. Open them in your favorite text editor.
+- **You choose where it runs.** Claude, OpenAI or any OpenAI-compatible service, or a model on your own Mac through Ollama or LM Studio.
+- **It speaks only when you press Send.** Nothing suggests, underlines or runs while you type.
+- **You see what is sent.** The pane lists the selection, nearby text, outline and bible cards that go with your message, and nothing else.
+- **Your manuscript is protected.** Words reach the page only through *Insert* or *Replace*, which go through undo, and a replaced passage goes to Darlings first.
+- **A story bible.** Characters, places, factions, rules and objects live as cards in your book folder. The Companion proposes cards; nothing is added unless you accept it.
+- **Keys stay private.** They are kept in the system keychain, never in your library.
+
+Set it up in **File → Settings… → Companion**, which has a Test button.
+
+## Your files and privacy
+
+Everything lives in `~/Documents/NEO Library`, one folder per book, with chapters as readable HTML and metadata as JSON. Open them in any text editor.
+
+```
+NEO Library/
+  library.json            shelves and settings
+  Backups/                a zip per day, two weeks kept
+  book-<title>-<id>/
+    book.json             title, chapter order, notes
+    chapters/<id>.html    your text
+    darlings.json         passages you set aside
+    bible.json            the Companion's story bible
+```
+
+(The folder keeps its original name so that existing libraries keep working. **File → Library Folder…** moves it anywhere, including iCloud Drive.)
+
+Scriby has no analytics and no account. Your writing leaves your Mac only if you send it: to a Companion model you chose, to OpenAI when you turn on painted covers, or when you email yourself a copy.
 
 ## Languages
 
-Scriby speaks English, French (including Canadian), Spanish, Portuguese (Brazil and Portugal), German, Italian, Dutch, Polish, Romanian, Russian, Greek, Hungarian, Korean and Turkish. Newer strings (such as the Companion's) fall back to English until they are translated. Pick one under **View → Language**; on first launch Scriby follows your system language when it has it. Adding a language is a single file, no programming needed: see [TRANSLATING.md](TRANSLATING.md).
+English, French (including Canadian), Spanish, Portuguese (Brazil and Portugal), German, Italian, Dutch, Polish, Romanian, Russian, Greek, Hungarian, Korean and Turkish. Pick one under **View → Language**; Scriby follows your system language the first time. Newer strings fall back to English until they are translated. See [TRANSLATING.md](TRANSLATING.md) to add a language.
 
-## Shortcuts
+## FAQ
 
-**View → Keyboard Shortcuts…** opens the shortcut reference. You can also press `Cmd+/` or use **Help → Scriby Shortcuts**.
+<details>
+<summary><b>Does it need an internet connection?</b></summary>
 
-## About the source
+No. Scriby works fully offline. Only the Companion (with a hosted model), painted covers and update downloads use the network, and only when you ask.
 
-Scriby is an Electron app written in plain JavaScript, HTML and CSS: a main process (`main.js`), a preload bridge (`preload.js`) and the interface (`app.js`, `styles.css`, `index.html`). The source is published so you can see how it works. Under its [license](LICENSE) you may use Scriby but not copy, modify or redistribute it without permission.
+</details>
+
+<details>
+<summary><b>Why does macOS warn me when I open it?</b></summary>
+
+The app is not yet notarized by Apple, which needs a paid developer account. Follow step 3 under [Install](#install); it is needed once.
+
+</details>
+
+<details>
+<summary><b>Does it work on Intel Macs, Windows or Linux?</b></summary>
+
+The current release is built for Apple silicon Macs. Other platforms are not part of this repository.
+
+</details>
+
+<details>
+<summary><b>Can I use my existing NEO library?</b></summary>
+
+Yes. Scriby reads the same `NEO Library` folder and the same plain files.
+
+</details>
+
+<details>
+<summary><b>Is my writing safe?</b></summary>
+
+Scriby autosaves as you type, takes a snapshot before each writing day, keeps a daily backup zip for two weeks, and never throws words away: deleted passages go to Darlings or the system Trash.
+
+</details>
+
+<details>
+<summary><b>How do I update?</b></summary>
+
+Check **Releases** for a newer version, download its DMG, and drag Scriby over the old copy.
+
+</details>
 
 ## Roadmap
 
-Notarized builds · Mac App Store release (see [MAC_APP_STORE.md](MAC_APP_STORE.md)) · a consistency check between the story bible and the chapters · global end matter that updates every book at once (copyright pages, bios and so on).
+- [ ] Notarized builds, so the first-launch warning goes away
+- [ ] Mac App Store release (see [MAC_APP_STORE.md](MAC_APP_STORE.md))
+- [ ] A consistency check between the story bible and the chapters
+- [ ] Global end matter that updates every book at once (copyright pages, bios and so on)
+
+## Documentation
+
+| | |
+|---|---|
+| [TUTORIAL.md](TUTORIAL.md) | A short walkthrough of writing in Scriby |
+| [TRANSLATING.md](TRANSLATING.md) | Adding or improving a language |
+| [MAC_APP_STORE.md](MAC_APP_STORE.md) | The plan for the Mac App Store |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Ideas, bug reports and contributions |
+| [AGENTS.md](AGENTS.md) | How the code is organised |
+| [NOTICE.md](NOTICE.md) | Attribution and third-party credits |
 
 ## Contributing
 
-Scriby is opinionated by design. Bug reports and ideas are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md). Because of Scriby's license, code contributions are accepted only with Tom's agreement.
+Scriby is opinionated by design: a change belongs here if it helps someone finish a book. Bug reports and ideas are welcome as [issues](https://github.com/tomxander/Scriby/issues); see [CONTRIBUTING.md](CONTRIBUTING.md). Because of Scriby's license, code contributions are accepted only with Tom's agreement.
 
 ## License and credits
 
 Scriby is © 2026 Tom, under the [Scriby License](LICENSE): anyone may use it, but not copy, modify, redistribute or sell it without permission.
 
-It is based on **NEO** by **Hugh Howey**, whose original work is MIT-licensed; his copyright and license are kept in [LICENSE-NEO-MIT](LICENSE-NEO-MIT). Full attribution and third-party credits are in [NOTICE.md](NOTICE.md).
+It is based on **NEO** by **[Hugh Howey](https://hughhowey.com)**, whose original work is MIT-licensed; his copyright and license are kept in [LICENSE-NEO-MIT](LICENSE-NEO-MIT). Fonts, dictionaries and other bundled components keep their own licenses; see [NOTICE.md](NOTICE.md).
+
+<div align="center">
+<br>
+<sub>Made for people who finish books.</sub>
+</div>
